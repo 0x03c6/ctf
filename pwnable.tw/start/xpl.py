@@ -12,5 +12,8 @@ s = lambda x, r="" : \
 sl = lambda x, r="" : \
   p.sendlineafter(r, x) if r else p.sendline(x)
 
+offset = 20
+
+
 p.interactive()
 
